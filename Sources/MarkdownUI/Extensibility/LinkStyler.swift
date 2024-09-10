@@ -1,6 +1,7 @@
 import SwiftUI
 
 public protocol LinkStyler {
+    @TextStyleBuilder
     func style(link: String) -> TextStyle
 }
 
